@@ -1,0 +1,250 @@
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Rajdhani', sans-serif;
+            background: #EFEFEF;
+        }
+        
+        .sec-confirm {
+            background: #333333;
+            color: #fff;
+            text-align: center
+        }
+        
+        .sec-confirm img {
+            width: 82px;
+            height: 82px;
+            margin-top: 186px;
+        }
+        
+        .sec-confirm span {
+            font-weight: bold;
+            margin-top: 28px;
+            display: block;
+            font-family: Open Sans;
+            font-size: 18px;
+            color: #ffffff;
+            font-weight: 700;
+            text-decoration: none solid rgb(255, 255, 255);
+            font-family: 'Rajdhani', sans-serif;
+        }
+        
+        .clear {
+            background: #fff;
+            height: 100vh;
+        }
+        
+        .sec-signup,
+        .sec-login {
+            text-align: center;
+            background: #333333;
+        }
+        
+        .sec-signup img {
+            width: 94px;
+            height: 94px;
+            margin-top: 136px;
+        }
+        
+        .sec-signup h2 {
+            height: 43px;
+            font-size: 36px;
+            color: #ffffff;
+            text-decoration: none solid rgb(255, 255, 255);
+            font-family: 'Rajdhani', sans-serif;
+            margin-top: 15px;
+        }
+        
+        .sec-signup form input {
+            text-align: center;
+            width: 355px;
+            height: 44px;
+            border: 1px solid #9b9b9b;
+            background-color: #4a4a4a;
+            font-size: 16px;
+            color: #ffffff;
+            text-decoration: none solid rgb(255, 255, 255);
+            letter-spacing: 1px;
+            margin-top: 15px;
+        }
+        /* for Chrome/Opera/Safari */
+        
+        form ::-webkit-input-placeholder {
+            color: #fff;
+            font-size: 16px;
+            color: #ffffff;
+            text-decoration: none solid rgb(255, 255, 255);
+            letter-spacing: 1px;
+        }
+        /* for Firefox 19+ */
+        
+        form ::-moz-placeholder {
+            color: #fff;
+            font-size: 16px;
+            color: #ffffff;
+            text-decoration: none solid rgb(255, 255, 255);
+            letter-spacing: 1px;
+        }
+        /* for Firefox 18- */
+        
+        form :-moz-placeholder {
+            color: #fff;
+            font-size: 16px;
+            color: #ffffff;
+            text-decoration: none solid rgb(255, 255, 255);
+            letter-spacing: 1px;
+        }
+        /* for IE 10+*/
+        
+        form :-ms-input-placeholder {
+            color: #fff;
+            font-size: 16px;
+            color: #ffffff;
+            text-decoration: none solid rgb(255, 255, 255);
+            letter-spacing: 1px;
+        }
+        
+        .signup-btn {
+            background: #60B8A7;
+            padding: 10px 50px;
+            border: 1px solid rgb(11, 33, 233);
+            margin-top: 30px;
+            color: #fff;
+            border-radius: 50px;
+            font-size: 17px;
+            margin-bottom: 30px;
+            outline: none;
+            transition: all .3s ease;
+            font-weight: bold;
+        }
+        
+        .signup-btn:hover {
+            cursor: pointer;
+            outline: none;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5)
+        }
+        
+        .signup-btn:active {
+            outline: none;
+        }
+        
+        @media(max-width:500px) {
+            .sec-signup form input {
+                width: 325px;
+            }
+        }
+        
+        .sec-login h2 {
+            display: inline-block;
+            margin-top: 100px;
+            height: 43px;
+            font-size: 36px;
+            color: #ffffff;
+            text-decoration: none solid rgb(255, 255, 255);
+            font-family: 'Rajdhani', sans-serif;
+            font-weight: bold;
+        }
+        
+        .sec-login img {
+            margin-bottom: 45px;
+            width: 220px;
+        }
+        
+        .sec-login form input {
+            text-align: center;
+            width: 355px;
+            height: 44px;
+            border: 1px solid #9b9b9b;
+            background-color: #4a4a4a;
+            font-size: 16px;
+            color: #ffffff;
+            text-decoration: none solid rgb(255, 255, 255);
+            letter-spacing: 1px;
+            margin-top: 15px;
+            border-radius: 5px;
+        }
+        /* for Chrome/Opera/Safari */
+        
+        form ::-webkit-input-placeholder {
+            color: #fff;
+            font-size: 16px;
+            color: #ffffff;
+            text-decoration: none solid rgb(255, 255, 255);
+            letter-spacing: 1px;
+        }
+        /* for Firefox 19+ */
+        
+        form ::-moz-placeholder {
+            color: #fff;
+            font-size: 16px;
+            color: #ffffff;
+            text-decoration: none solid rgb(255, 255, 255);
+            letter-spacing: 1px;
+        }
+        /* for Firefox 18- */
+        
+        form :-moz-placeholder {
+            color: #fff;
+            font-size: 16px;
+            color: #ffffff;
+            text-decoration: none solid rgb(255, 255, 255);
+            letter-spacing: 1px;
+        }
+        /* for IE 10+*/
+        
+        form :-ms-input-placeholder {
+            color: #fff;
+            font-size: 16px;
+            color: #ffffff;
+            text-decoration: none solid rgb(255, 255, 255);
+            letter-spacing: 1px;
+        }
+        
+        .login-btn {
+            background: #60B8A7;
+            padding: 10px 50px;
+            border: 1px solid rgb(11, 33, 233);
+            margin-top: 20px;
+            color: #fff;
+            border-radius: 50px;
+            font-size: 17px;
+            margin-bottom: 60px;
+            outline: none;
+            transition: all .3s ease;
+            font-weight: bold
+        }
+        
+        .login-btn:hover {
+            cursor: pointer;
+            outline: none;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5)
+        }
+        
+        .login-btn:active {
+            outline: none;
+        }
+        
+        .link-a {
+            color: #fff;
+            font-size: 18px;
+            border: dashed 1px #fff;
+        }
+        
+        .link-a:hover {
+            text-decoration: none;
+            color: #fff;
+        }
+        
+        .sec-login p {
+            font-size: 18px;
+            color: #fff;
+            margin-top: 70px;
+            font-weight: bold;
+            padding-bottom: 50px;
+        }
+        
+        @media(max-width:500px) {
+            .sec-login form input {
+                width: 325px;
+            }
+        }
